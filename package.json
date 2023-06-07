@@ -1,0 +1,16 @@
+{
+  "name": "create-multi-period-dash-manifest",
+  "version": "1.0.0",
+  "description": "How to create multi period DASH manifest",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve .",
+    "make": "./make-manifests.sh && ./concat-manifests.js"
+  },
+  "author": "Minhui Zhao",
+  "license": "MIT",
+  "dependencies": {
+    "luxon": "^3.3.0",
+    "xml2js": "^0.6.0"
+  }
+}
